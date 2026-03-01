@@ -91,5 +91,5 @@ python webUI.py
 确保 PostgreSQL 的 pgvector 扩展安装成功，否则向量存储功能无法使用
 运行前需配置正确的数据库 URI（config.py中的DB_URI）
 大模型 API 密钥需有效，否则无法调用模型服务
-#📄 许可证
+# 许可证
 本项目基于 MIT 许可证 开源。
