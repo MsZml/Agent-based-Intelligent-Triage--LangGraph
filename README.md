@@ -86,7 +86,6 @@ plaintext
 ├── webUI.py              # Gradio WebUI
 └── apiTest.py            # API测试脚本
 
-
 # ⚠️ 注意事项
 调用通义千问模型时，需设置check_embedding_ctx_length=False，否则会报 400 错误
 确保 PostgreSQL 的 pgvector 扩展安装成功，否则向量存储功能无法使用
