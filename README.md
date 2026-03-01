@@ -67,6 +67,7 @@ python main.py
 python webUI.py
 ### 本地访问 http://127.0.0.1:7860
 # 📁 项目结构
+```text
 plaintext
 医疗智能分诊系统/
 ├── assets/               # 静态资源（流程图、截图）
