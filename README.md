@@ -68,7 +68,6 @@ python webUI.py
 ### 本地访问 http://127.0.0.1:7860
 # 📁 项目结构
 ```text
-plaintext
 医疗智能分诊系统/
 ├── assets/               # 静态资源（流程图、截图）
 ├── prompts/              # 提示词模板文件
@@ -86,7 +85,7 @@ plaintext
 ├── main.py               # FastAPI接口入口
 ├── webUI.py              # Gradio WebUI
 └── apiTest.py            # API测试脚本
-
+```
 # ⚠️ 注意事项
 调用通义千问模型时，需设置check_embedding_ctx_length=False，否则会报 400 错误
 确保 PostgreSQL 的 pgvector 扩展安装成功，否则向量存储功能无法使用
